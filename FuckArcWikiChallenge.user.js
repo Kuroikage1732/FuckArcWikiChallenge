@@ -9,9 +9,8 @@
 // @grant        none
 // @require      https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
 // ==/UserScript==
-
-(function () {
-    this.$ = this.jQuery = jQuery.noConflict(true);
+this.$ = this.jQuery = jQuery.noConflict(true);
+$(function () {
     console.log('FuckArcWikiChallenge Loaded');
     if (document.getElementById('autohidden') != undefined) {
         document.evaluate('/html/body/div[3]/div[3]/div[4]/div/table/tbody/tr/td[1]/div/img', document).iterateNext().src = "https://pic.rmb.bdstatic.com/bjh/3a01f3977ca05bb86115fe2fb144ba21.png";
