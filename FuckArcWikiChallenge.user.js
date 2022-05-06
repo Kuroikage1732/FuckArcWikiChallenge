@@ -17,8 +17,8 @@ if (document.getElementById('autohidden') != undefined)
     console.debug('[FuckArcWikiChallenge]Replaced Visibility Icon');
     $('#autohidden').html('');
     console.debug('[FuckArcWikiChallenge]Cleared Question Div');
-    $('#autoshow').removeAttr('class','test-hidden-2');
-    console.debug('[FuckArcWikiChallenge]Showed Confirm Prompt');
+    // $('#autoshow').removeAttr('class','test-hidden-2');
+    // console.debug('[FuckArcWikiChallenge]Showed Confirm Prompt');
     $('.test-hidden').removeAttr('class','test-hidden');
     console.debug('[FuckArcWikiChallenge]Showed Main Hidden Part');
 }
