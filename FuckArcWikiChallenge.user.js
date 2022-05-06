@@ -20,7 +20,11 @@ if (document.getElementById('autohidden') != undefined)
     // $('#autoshow').removeAttr('class','test-hidden-2');
     // console.debug('[FuckArcWikiChallenge]Showed Confirm Prompt');
     $('div .light-blue').remove();
-    console.debug('[FuckArcWikiChallenge]Cleared Confirm Prompt');
+    console.debug('[FuckArcWikiChallenge]Removed Confirm Prompt');
+    $('.box-技术型').remove()
+    console.debug('[FuckArcWikiChallenge]Removed Technical Warning');
+    $("p:first").addClass('test-hidden');
+    console.debug('[FuckArcWikiChallenge]Hidden <p> Before Main Part');
     $('.test-hidden').removeAttr('class','test-hidden');
     console.debug('[FuckArcWikiChallenge]Showed Main Hidden Part');
 }
