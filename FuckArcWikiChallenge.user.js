@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         FuckArcWikiChallenge
-// @namespace    https://misakacastle.moe
-// @version      0.2.2
+// @namespace    https://kuroikage.blog.luogu.org
+// @version      0.12.8
 // @description  绕过Arcaea中文Wiki的技术类隐藏页面验证
-// @author       Misaka12456
+// @author       Misaka12456(Fork By Kuroikage1732)
 // @match        https://wiki.arcaea.cn/*
 // @icon         https://pic.rmb.bdstatic.com/bjh/3a01f3977ca05bb86115fe2fb144ba21.png
 // @grant        none
